@@ -7,10 +7,10 @@ app = os.getenv("APP_ID")
 api = os.getenv("API_KEY")
 b_token = os.getenv("BEARER_TOKEN")
 
-GENDER = "male"
-WEIGHT = 61
-HEIGHT = 167
-AGE = 24
+GENDER = "Your_gender"
+WEIGHT = "your_weight_in_kg"
+HEIGHT = "your_height_in_cm"
+AGE = "your_age"
 
 query = input("Tell me what exercise you did: ")
 
